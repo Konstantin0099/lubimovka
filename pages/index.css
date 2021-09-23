@@ -3,11 +3,23 @@
 @import url(../vendors/FormularLight/formular-light.css);
 @import url(../vendors/NeueMachinaRegular/NeueMachina.css);
 
-@import url(../block/card-play-cover/__img/card-play-cover__img.css);
-@import url(../block/card-play-cover/card-play-cover.css);
-@import url(../block/content/content.css);
-@import url(../block/page/page.css);
 @import url(../block/root/root.css);
-@import url(../block/section-card-play-cover/section-cards-play-cover.css);
-@import url(../block/headline/headline.css);
+
+@import url(../block/page/page.css);
+
+@import url(../block/content/content.css);
+
+@import url(../block/section-cards-play-cover/section-cards-play-cover.css);
 @import url(../block/cards-play-cover/cards-play-cover.css);
+
+@import url(../block/card-play-cover/card-play-cover.css);
+@import url(../block/card-play-cover/__title/card-play-cover__title.css);
+@import url(../block/card-play-cover/__author/card-play-cover__author.css);
+@import url(../block/card-play-cover/__location/card-play-cover__location.css);
+@import url(../block/card-play-cover/__text/card-play-cover__text.css);
+
+@import url(../block/headline/headline.css);
+
+/* div, p, h1, h2, h3 {
+    border: solid red;
+} */

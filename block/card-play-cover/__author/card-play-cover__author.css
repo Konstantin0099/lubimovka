@@ -1,0 +1,16 @@
+.card-play-cover__author {
+  font-family: Neue Machina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  display: block;
+  color: #242424;
+  max-width: 190px;
+  max-height: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: auto 0 0;
+  border: 0;
+}

@@ -1,12 +1,15 @@
 .section-cards-play-cover {
-        display: block;
-        margin: 0 auto;
-        padding: 0;
-        max-width: 68.75%;
-        border: 1px red;
-      }
-      
-      @media screen and (max-width: 1023px) {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 60px;
+  box-sizing: border-box;
+  /* max-width: 1440px; */
+  width: 100%;
+}
+
+/* @media screen and (max-width: 1023px) {
         .section-cards-play-covers {
           max-width: 703px;
         }
@@ -21,4 +24,4 @@
 
         }
       }
-      
+       */

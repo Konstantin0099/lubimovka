@@ -1,17 +1,17 @@
 .card-play-cover {
         /* height: 412px; */
         /* width: 30%; */
-        position: relative;
+        /* position: relative; */
         display: grid;
-        grid-template-columns: 30%;
-        grid-template-rows: 21vw 4vw 4vw;
+        grid-template-columns: 100%;
+        grid-template-rows: 300px 64px 48px;
         gap: 0;
         grid-template-areas:
           "title"
           "author"
           "location";
         align-items: center;
-        background-color: #B7C09D;
+        
         /* overflow: hidden; */
         margin: 0;
         padding: 0;

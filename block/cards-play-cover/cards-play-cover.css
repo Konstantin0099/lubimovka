@@ -1,16 +1,19 @@
 .cards-play-cover {
+  overflow-x: scroll;
     display: grid;
-    margin: 0 auto;
+    justify-content: center;
+    margin: 0;
     padding: 0;
-    grid-template-columns: repeat(5, 1fr);
+    grid-auto-flow: column;
+    grid-template-columns: 240px;
     gap: 30px;
-    /* max-width: 68.75%; */
     grid-auto-columns: 240px;
+    width: 100%;
   }
-  
-  @media screen and (max-width: 1023px) {
+ 
+  /* @media screen and (max-width: 1023px) {
     .cards-play-cover {
-      /* max-width: 703px; */
+      /* max-width: 703px;
     }
   }
   @media screen and (max-width: 590px) {
@@ -21,8 +24,8 @@
   }
   @media screen and (max-width: 425px) {
     .cards-play-cover {
-      /* grid-template-columns: 5fr; */
-      grid-auto-rows: 244px;
+      /* grid-template-columns: 5fr; 
+      grid-auto-columns: 244px;
     }
   }
-  
+   */
