@@ -1,0 +1,28 @@
+.cards-play-cover {
+    display: grid;
+    margin: 0 auto;
+    padding: 0;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    /* max-width: 68.75%; */
+    grid-auto-columns: 240px;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .cards-play-cover {
+      /* max-width: 703px; */
+    }
+  }
+  @media screen and (max-width: 590px) {
+    .cards-play-cover {
+      max-width: 100%;
+      gap: 31px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .cards-play-cover {
+      /* grid-template-columns: 5fr; */
+      grid-auto-rows: 244px;
+    }
+  }
+  
