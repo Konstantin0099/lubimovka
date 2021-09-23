@@ -1,0 +1,14 @@
+.event__info-tickets {
+  display: inline-block;
+  background-image: url(../../../images/buttonTickets.svg);
+  background-size: cover;
+  width: 154px;
+  height: 32px;
+  padding: 0;
+}
+
+.event__info-tickets:hover {
+  fill: #ffffff;
+
+  background-color: #000;
+}

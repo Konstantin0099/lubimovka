@@ -1,0 +1,14 @@
+.event__info-day {
+  margin: 0 42px 0 0;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 500px) {
+  .event__info-day {
+    margin-right: 46px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

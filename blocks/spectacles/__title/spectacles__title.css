@@ -1,0 +1,25 @@
+.spectacles__title {
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: #242424;
+  margin: 0 35.4% 0 25.1%;
+  padding-top: 122px;
+  font-family: "Neue Machina";
+  font-weight: normal;
+}
+
+@media (max-width: 700px) {
+  .spectacles__title {
+    margin-left: 15%;
+    margin-right: 5%;
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 500px) {
+  .spectacles__title {
+    display: none;
+  }
+}
