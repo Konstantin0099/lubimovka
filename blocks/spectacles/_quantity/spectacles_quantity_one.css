@@ -1,0 +1,11 @@
+.spectacles_quantity_one {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 170px;
+}
+
+@media (max-width: 1140px) {
+  .spectacles_quantity_one {
+    display: block;
+  }
+}
