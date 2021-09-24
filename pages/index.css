@@ -50,3 +50,34 @@
 @import "../blocks/cooperation/__text/cooperation__text.css";
 @import "../blocks/cooperation/__paragraph/cooperation__paragraph.css";
 @import "../blocks/cooperation/__link/cooperation__link.css";
+
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__logo/footer__logo.css";
+@import "../blocks/footer/__main/footer__main.css";
+@import "../blocks/footer/__container/footer__container.css";
+@import "../blocks/footer/__menus/footer__menus.css";
+@import "../blocks/footer/__rights/footer__rights.css";
+
+@import "../blocks/partners/partners.css";
+@import "../blocks/partners/__list/partners__list.css";
+@import "../blocks/partners/__header/partners__header.css";
+@import "../blocks/partners/__partner/partners__partner.css";
+@import "../blocks/partners/__logo/partners__logo.css";
+
+@import "../blocks/address/address.css";
+@import "../blocks/address/__header/address__header.css";
+@import "../blocks/address/__text/address__text.css";
+
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
+
+@import "../blocks/copyrights/copyrights.css";
+@import "../blocks/copyrights/__company/copyrights__company.css";
+@import "../blocks/copyrights/__policy/copyrights__policy.css";
+@import "../blocks/copyrights/__link/copyrights__link.css";
+
+@import "../blocks/developers/developers.css";
+@import "../blocks/developers/__design/developers__design.css";
+@import "../blocks/developers/__code/developers__code.css";
+@import "../blocks/developers/__link/developers__link.css";
