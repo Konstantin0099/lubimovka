@@ -1,0 +1,17 @@
+.title {
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 145px auto 0;
+  text-align: center;
+  max-width: 568px;
+}
+
+@media (max-width:725px) {
+  .title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
