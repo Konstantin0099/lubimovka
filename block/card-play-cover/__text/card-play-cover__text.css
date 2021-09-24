@@ -1,7 +1,8 @@
 .card-play-cover__text {
     display: block;
-    margin: 0;
+    margin: 24px auto;
     padding: 0;
+    box-sizing: border-box;
     font-family: Neue Machina;
     font-style: normal;
     font-weight: normal;

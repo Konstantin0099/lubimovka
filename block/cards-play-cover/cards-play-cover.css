@@ -1,9 +1,9 @@
 .cards-play-cover {
-  overflow-x: scroll;
     display: grid;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
+    box-sizing: content-box;
     grid-auto-flow: column;
     grid-template-columns: 240px;
     gap: 30px;
@@ -11,11 +11,12 @@
     width: 100%;
   }
  
-  /* @media screen and (max-width: 1023px) {
+  @media screen and (max-width: 1440px) {
     .cards-play-cover {
-      /* max-width: 703px;
+     overflow-x: scroll;
     }
   }
+  /*
   @media screen and (max-width: 590px) {
     .cards-play-cover {
       max-width: 100%;

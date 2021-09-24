@@ -6,10 +6,11 @@
   max-width: 1440px;
   /* justify-content: space-around; */
   color: #242424;
+  background-color: #ecebe8;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .content {
     padding: 0 16px;
   }
-}
+} */

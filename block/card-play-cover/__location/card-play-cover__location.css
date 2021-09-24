@@ -5,6 +5,7 @@
   font-size: 16px;
   line-height: 22px;
   display: block;
+  grid-area: location;
   color: #242424;
   max-width: 155px;
   max-height: 44px;
