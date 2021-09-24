@@ -1,0 +1,18 @@
+.spectacles__group {
+  list-style-type: none;
+  padding: 0 31px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1439px) {
+  .spectacles__group {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .spectacles__group {
+    display: none;
+  }
+}

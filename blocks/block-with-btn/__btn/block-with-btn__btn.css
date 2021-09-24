@@ -1,0 +1,36 @@
+.block-with-btn__btn {
+  align-self: center;
+  position: relative;
+  padding-left: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Formular";
+  width: 298px;
+  height: 56px;
+  background-color: transparent;
+  outline: 0;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.block-with-btn__btn::after {
+  position: absolute;
+  content: " ";
+  width: 20px;
+  height: 20px;
+  right: 20px;
+  background-image: url("../../../images/icons/arrow-right.svg");
+  background-position: 25%;
+}
+
+@media screen and (max-width: 860px) {
+  .block-with-btn__btn {
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .block-with-btn__btn {
+    max-width: 298px;
+  }
+}

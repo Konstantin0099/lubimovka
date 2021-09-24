@@ -1,143 +1,45 @@
 @import url(./vendors/normalize.css);
 @import url(./vendors/fonts/fonts.css);
+@import url(./blocks/spectacle/spectacle.css);
+@import url(./blocks/spectacles/__title/spectacles__title.css);
+@import url(./blocks/spectacles/__title-mobile/spectacles__title-mobile.css);
+@import url(./blocks/spectacles/__title/_quantity/spectacles__title_quantity_one.css);
+@import url(./blocks/spectacles/_quantity/spectacles_quantity_one.css);
+@import url(./blocks/spectacles/__group/spectacles__group.css);
+@import url(./blocks/spectacles/__group-mobile/spectacles__group-mobile.css);
+@import url(./blocks/spectacles/__group/_quantity/spectacles__group_quantity_two.css);
+@import url(./blocks/spectacles/__group/_quantity/spectacles__group_quantity_one.css);
+@import url(./blocks/event/event.css);
+@import url(./blocks/event/_quantity/event_quantity_one.css);
+@import url(./blocks/event/__image/event__image.css);
+@import url(./blocks/event/__info/event__info.css);
+@import url(./blocks/event/__info-date/event__info-date.css);
+@import url(./blocks/event/__info-day/event__info-day.css);
+@import url(./blocks/event/__info-time/event__info-time.css);
+@import url(./blocks/event/__info-title/event__info-title.css);
+@import url(./blocks/event/__info-author/event__info-author.css);
+@import url(./blocks/event/__info-text/event__info-text.css);
+@import url(./blocks/event/__info-about/event__info-about.css);
+@import url(./blocks/event/__info-tickets/event__info-tickets.css);
+
+@import url(./blocks/line/line.css);
+@import url(./blocks/line/_quantity/line_quantity_two.css);
+
+@import "./blocks/block-with-btn/block-with-btn.css";
+@import "./blocks/block-with-btn/__btn/block-with-btn__btn.css";
+@import "./blocks/block-with-btn/__container/block-with-btn__container.css";
+@import "./blocks/block-with-btn/__header/block-with-btn__header.css";
+@import "./blocks/block-with-btn/__text/block-with-btn__text.css";
+@import "./blocks/block-with-btn/__wrapper/block-with-btn__wrapper.css";
+
+@import "./blocks/cooperation/cooperation.css";
+@import "./blocks/cooperation/__header/cooperation__header.css";
+@import "./blocks/cooperation/__text/cooperation__text.css";
+@import "./blocks/cooperation/__paragraph/cooperation__paragraph.css";
+@import "./blocks/cooperation/__link/cooperation__link.css";
 
 body {
   font-family: "Formular";
   max-width: 1440px;
-}
-
-.spectacle {
-  background: #ecebe8;
-}
-
-.spectacles__title {
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: -0.01em;
   color: #242424;
-  margin: 0 510px 0 362px;
-  padding-top: 122px;
-  font-family: "Neue Machina";
-  font-weight: normal;
-}
-
-.group {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 75px;
-}
-.group__image {
-  width: 120px;
-  height: 161px;
-  margin-right: 31px;
-}
-
-.group__info {
-  width: 269px;
-}
-
-.spectacles__event {
-  list-style-type: none;
-  padding: 0 31px 0;
-}
-
-.group__info-date {
-  display: flex;
-}
-
-.group__info-day {
-  margin: 0 42px 0 0;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: -0.01em;
-  font-feature-settings: "ss01" on;
-}
-
-.group__info-time {
-  margin: 0;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: -0.01em;
-  font-feature-settings: "ss01" on;
-}
-
-.group__info-title {
-  margin: 4px 0 16px 0;
-  font-size: 36px;
-  line-height: 38px;
-  letter-spacing: -0.01em;
-  font-family: "Neue Machina";
-  font-weight: normal;
-}
-
-.group__info-author {
-  margin: 0 0 0 30px;
-  font-size: 16px;
-  line-height: 22px;
-}
-
-.group__info-text {
-  margin: 20px 0 24px;
-  max-width: 150px;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.group__info-about {
-  border: none;
-  background: url(./images/buttonAbout.svg);
-  background-size: cover;
-  width: 154px;
-  height: 32px;
-  padding: 0;
-  margin-bottom: 16px;
-}
-
-.group__info-tickets {
-  border: none;
-  background: url(./images/buttonTickets.svg);
-  background-size: cover;
-  width: 154px;
-  height: 32px;
-  padding: 0;
-}
-
-.line {
-  width: 1px;
-  height: 268px;
-  background-color: #242424;
-  margin: 75px 29px 0;
-}
-
-.spectacles__event {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.spectacles__ivent_quantity_two {
-  justify-content: center;
-}
-
-.line_quantity_two {
-  margin: 75px 59px 0;
-}
-
-.spectacles_quantity_one {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 170px;
-}
-
-.spectacles__title_quantity_one {
-  margin: 0 60px 0 210px;
-  padding: 0;
-  max-width: 450px;
-}
-
-.spectacles__event_quantity_one {
-  padding: 0;
-}
-
-.group_quantity_one {
-  padding-top: 0;
 }

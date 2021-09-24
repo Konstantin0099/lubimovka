@@ -1,0 +1,17 @@
+.spectacles__title-mobile {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .spectacles__title-mobile {
+    display: block;
+    font-family: "Neue Machina";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    padding-top: 100px;
+    margin: 0 21px 0 24px;
+  }
+}

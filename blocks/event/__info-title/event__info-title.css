@@ -1,0 +1,17 @@
+.event__info-title {
+  margin: 4px 0 16px 0;
+  font-size: 36px;
+  line-height: 38px;
+  letter-spacing: -0.01em;
+  font-family: "Neue Machina";
+  font-weight: normal;
+}
+
+@media (max-width: 500px) {
+  .event__info-title {
+    font-size: 28px;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+}

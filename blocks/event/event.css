@@ -1,0 +1,17 @@
+.event {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 75px;
+}
+
+@media (max-width: 1024px) {
+  .event:first-of-type {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 931px) {
+  .event:first-of-type {
+    margin-right: 0;
+  }
+}
