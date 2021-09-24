@@ -1,25 +1,50 @@
 .event__info-about {
-  background: url(../../../images/buttonAbout.svg);
   padding: 0;
   margin-bottom: 16px;
   display: inline-block;
   width: 154px;
   height: 32px;
 }
-.event__info-about:hover {
-  background: url(../../../images/aboutBlack.jpg);
+.event__info-about::after {
+  content: "";
+  position: absolute;
+  left: -154px;
+  z-index: 1;
+  height: 32px;
+  width: 154px;
+  background-color: #000;
+  transition: 1s;
+  stroke: white;
+  fill: white;
+}
+.event__info-about:hover::after {
+  transform: translateX(154px);
+  /* box-shadow: inset 154px 0 #000; */
+  z-index: 1;
+  transition: 0.7s;
+  stroke: white;
+  fill: white;
 }
 
-.event__info-about:active {
-  background: url(../../../images/small\ button.gif);
-  background-size: auto;
-  background-position: center;
+.event__info-about:active::after {
+  transform: scale(1.2, 1.2);
+  background-color: #000;
+  z-index: 1;
+  left: 0;
 }
-
 @media (max-width: 500px) {
   .event__info-about {
     margin-bottom: 0;
     margin-right: 27px;
     margin-left: 24px;
+  }
+
+  .event__info-about::after {
+    left: -129px;
+    z-index: -1;
+  }
+
+  .event__info-about:active::after {
+    left: 20px;
   }
 }
