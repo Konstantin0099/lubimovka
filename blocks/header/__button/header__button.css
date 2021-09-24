@@ -1,0 +1,27 @@
+.header__button {
+    font-family: Formular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 113px;
+    height: 28px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .header__button{
+        margin-left: 38px;
+    }
+  }

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Neue Machina";
+  src: url(../fonts/NeueMachinaRegular/PPNeueMachina-Regular.eot) format("eot"),
+    url(../fonts/NeueMachinaRegular/PPNeueMachina-Regular.ttf)
+      format("truetype"),
+    url(../fonts/NeueMachinaRegular/PPNeueMachina-Regular.woff2) format("woff2"),
+    url(../fonts/NeueMachinaRegular/PPNeueMachina-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url(../fonts/Formular/Formular-Light.eot) format("eot"),
+    url(../fonts/Formular/Formular-Light.ttf) format("truetype"),
+    url(../fonts/Formular/Formular-Light.woff2) format("woff2"),
+    url(../fonts/Formular/Formular-Light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
