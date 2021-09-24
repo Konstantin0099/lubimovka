@@ -1,0 +1,13 @@
+.page {
+  background-color: #ecebe8;
+  color: #242424;
+  margin: 0 auto;
+  max-width: 1400px;
+  min-width: 320px;
+}
+
+@media (min-width:1400px) {
+  .page {
+    padding: 0 calc((100% - 1400px)/2);
+  }
+}

@@ -1,0 +1,21 @@
+.popup__close-button {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-image: url(../../../images/button/cross.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #ecebe8;
+  cursor: pointer;
+}
+
+.popup__close-button:hover {
+  background-image: url(../../../images/button/cross-w.svg);
+  background-color: #242424;
+  transition: transform .3s ease-in-out;
+  transform : scale(1.15);
+}
