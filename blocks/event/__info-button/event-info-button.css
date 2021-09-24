@@ -1,0 +1,13 @@
+.event__info-button {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  fill: white;
+}
+.event__info-button:hover {
+  stroke: white;
+}
+
+.event__info-button:active {
+  stroke: white;
+}

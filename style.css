@@ -21,7 +21,7 @@
 @import url(./blocks/event/__info-text/event__info-text.css);
 @import url(./blocks/event/__info-about/event__info-about.css);
 @import url(./blocks/event/__info-tickets/event__info-tickets.css);
-
+@import url(./blocks/event/__info-button/event-info-button.css);
 @import url(./blocks/line/line.css);
 @import url(./blocks/line/_quantity/line_quantity_two.css);
 
