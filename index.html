@@ -5,10 +5,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Любимовка</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="pages/index.css" />
   </head>
-  <body>
-    <section class="spectacle">
+  <!-- <body class="root"> -->
+  <!-- <link rel="stylesheet" href="./pages/index.css" /> -->
+  <body class="page">
+    <header class="header">
+      <nav class="header__navigation">
+        <img src="./image/Group.svg" alt="" class="header__image" />
+        <ul class="header__links">
+          <li><a href="#" class="header__link">Афиша</a></li>
+          <li><a href="#" class="header__link">Библиотека</a></li>
+          <li><a href="#" class="header__link">Проекты</a></li>
+          <li><a href="#" class="header__link">История</a></li>
+          <li><a href="#" class="header__link">Блог</a></li>
+          <li><a href="#" class="header__link">Новости</a></li>
+          <li><a href="#" class="header__link">О фестивале</a></li>
+          <li><a href="#" class="header__link">Контакты</a></li>
+        </ul>
+        <div class="header__border"></div>
+        <ul class="header__links header__network">
+          <li><a href="#" class="header__link">fb</a></li>
+          <li><a href="#" class="header__link">inst</a></li>
+          <li><a href="#" class="header__link">ytube</a></li>
+          <li><a href="#" class="header__link">tlgrm</a></li>
+          <li><a href="#" class="header__link">vk</a></li>
+        </ul>
+        <div class="header__border"></div>
+        <a href="#" class="header__button header__button-support">
+          ПОДДЕРЖАТЬ
+          <div class="header__button-img header__button-img-support"></div>
+        </a>
+      </nav>
+      <a href="#" class="header__button header__button-img-progect">
+        ПРОЕКТЫ
+        <div class="header__button-img"></div>
+      </a>
+    </header>
+    <main class="content">
+      <section class="intro">
+        <h2 class="intro__title">Любимовка.Ещё</h2>
+        <p class="intro__text">
+          Межсезонные читки и обсуждение пьес из списка отмеченных отборщиками
+          Любимовки.<span class="intro__text intro__text_display">
+            Можно слушать, обсуждать и даже участвовать.</span
+          >
+        </p>
+        <img
+          src="./image/Rectangle72.svg"
+          alt="картинка"
+          class="intro__image"
+        />
+        <div class="intro__about">
+          <h3 class="intro__about-title">О проекте</h3>
+          <p class="intro__about-text">
+            За первый сезон проекта организаторы провели 17 мероприятий вместе с
+            режиссёрами и актёрами московских театров: Театра.doc, Театрального
+            Центра им. Вс. Мейерхольда, Гоголь-центра, Электротеатра
+            «Станиславский», Ленкома.
+          </p>
+        </div>
+      </section>
+      <section class="videos">
+        <div class="video">
+          <h2 class="video__title">Заголовок блока с видео</h2>
+          <div class="video__frame video__flex">
+            <iframe
+              width="366"
+              height="206"
+              src="https://www.youtube.com/embed/ECf2dnwmRuQ"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="video__iframe video__iframe-first"
+            ></iframe>
+          </div>
+          <p class="video__text">
+            Из этого следует два вывода: с одной стороны, искусство не должно
+            быть равно реальности, потому что иначе оно не будет искусством, с
+            другой стороны – оно должно быть все-таки подобно реальности, иначе
+            мы ничего не поймем, не подключимся и не распознаем замыслы автора.
+            Мне нравится такое определение, что один из видов эстетики – это,
+            грубо говоря, "понимание" чего-то. Если нам нечего понимать, то мы
+            не получим ни удовольствия, ни какого-то чувства, ничего. А для
+            того, чтобы что-то понять, нам должно быть представлено что-то, что
+            не равно само себе. То есть нам показывают или говорят что-то, а мы
+            понимаем, что там есть что-то еще. Вот мы смотрим на античную статую
+            и понимаем, что это – статуя, но похожа на человека. Если она будет
+            абсолютно такая же как человек, как восковая фигура, то мы поймем,
+            что это уже не искусство. Искусство для того, чтобы люди догадались,
+            домыслили, дочувствовали что-то.
+          </p>
+          <h2 class="video__title">Заголовок блока с двумя видео</h2>
+          <div class="video__frame">
+            <iframe
+              width="299"
+              height="168"
+              src="https://www.youtube.com/embed/ECf2dnwmRuQ"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="video__iframe video__iframes"
+            ></iframe>
+            <iframe
+              width="299"
+              height="168"
+              src="https://www.youtube.com/embed/ECf2dnwmRuQ"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="video__iframe video__iframes"
+            ></iframe>
+          </div>
+          <h2 class="video__title">Заголовок блока с трeмя видео</h2>
+          <div class="video__frame">
+            <iframe
+              width="299"
+              height="168"
+              src="https://www.youtube.com/embed/ECf2dnwmRuQ"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="video__iframe video__iframes"
+            ></iframe>
+            <iframe
+              width="299"
+              height="168"
+              src="https://www.youtube.com/embed/ECf2dnwmRuQ"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="video__iframe video__iframes"
+            ></iframe>
+            <iframe
+              width="299"
+              height="168"
+              src="https://www.youtube.com/embed/ECf2dnwmRuQ"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="video__iframe video__iframes"
+            ></iframe>
+
+             <section class="spectacle">
       <div class="spectacles">
         <h2 class="spectacles__title">
           Заголовок&nbsp;блока с&nbsp;тремя&nbsp;и&nbsp;более спектаклями
@@ -240,6 +381,66 @@
             ></a>
           </div>
         </div>
+      </section>
+      <!-- </main> -->
+      <!-- >>>>>>> 1ea2c54f121ce090d6a2ecf5ce283ec52f33573b -->
+      <!-- <main class="content"> -->
+      <!-- <div class="page"> -->
+      <!-- <main class="content"> -->
+
+      <section class="photo">
+        <h2 class="title">Заголовок блока с фотографиями</h2>
+        <div class="photo-grid">
+          <img
+            src="images/image1.png"
+            alt="Фотография 1"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/image2.png"
+            alt="Фотография 2"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/image3.png"
+            alt="Фотография 3"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/image4.png"
+            alt="Фотография 4"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/image5.png"
+            alt="Фотография 5"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/image6.png"
+            alt="Фотография 6"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/image7.png"
+            alt="Фотография 7"
+            class="photo-grid__item"
+          />
+          <img
+            src="images/image8.png"
+            alt="Фотография 8"
+            class="photo-grid__item"
+          />
+        </div>
+      </section>
+      <section class="spectacle">
+        <div class="spectacles">
+          <h2 class="spectacles__title">
+            Заголовок&nbsp;блока с&nbsp;тремя&nbsp;и&nbsp;более спектаклями
+          </h2>
+          <h2 class="spectacles__title-mobile">
+            Заголовок&nbsp;блока со&nbsp;спектаклями&nbsp;любое количество
+          </h2>
 
         <div class="spectacles__group spectacles__group_quantity_three">
           <div class="spectacles__event event">
@@ -493,8 +694,7 @@
               ></a>
             </div>
           </div>
-        </div>
-      </div>
+
 
       <div class="spectacles">
         <h2 class="spectacles__title">
@@ -669,7 +869,7 @@
             </div>
           </div>
         </div>
-      </div>
+
 
       <div class="spectacles spectacles_quantity_one">
         <h2 class="spectacles__title spectacles__title_quantity_one">
@@ -760,7 +960,168 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="section-cards">
+        <h2 class="headline">Заголовок блока с пьесами</h2>
+        <ul class="cards">
+          <li class="card">
+            <div class="card__title">
+              <h3 class="card__text">Солнечная &ensp; &ensp; линия</h3>
+            </div>
+            <p class="card__author">
+              <span class="autor-span">Екатерина </span
+              ><span class="autor-span">Августеняк</span>
+            </p>
+            <p class="card__location">Санкт-Петербург 2020</p>
+          </li>
+          <li class="card">
+            <div class="card__title">
+              <h2 class="card__text">МАМА</h2>
+            </div>
+            <!-- как сделать заглавные буквы ?? -->
+            <h2 class="card__author">
+              <span class="autor-span">Екатерина </span
+              ><span class="autor-span">Августеняк</span>
+            </h2>
+            <p class="card__location">Санкт-Петербург 2020</p>
+          </li>
+          <li class="card">
+            <div class="card__title">
+              <h2 class="card__text">
+                Конкретные разговоры пожилых супругов ни о чём
+              </h2>
+            </div>
+
+            <h2 class="card__author">
+              <span class="autor-span">Екатерина </span
+              ><span class="autor-span">Августеняк</span>
+            </h2>
+            <p class="card__location">Санкт-Петербург 2020</p>
+          </li>
+          <li class="card">
+            <div class="card__title">
+              <h2 class="card__text">Опус ДНК</h2>
+            </div>
+
+            <h2 class="card__author">
+              <span class="autor-span">Екатерина </span
+              ><span class="autor-span">Августеняк</span>
+            </h2>
+            <p class="card__location">Санкт-Петербург 2020</p>
+          </li>
+          <li class="card">
+            <div class="card__title">
+              <h2 class="card__text">МАМА</h2>
+            </div>
+
+            <h2 class="card__author">
+              <span class="autor-span">Екатерина </span
+              ><span class="autor-span">Августеняк</span>
+            </h2>
+            <p class="card__location">Санкт-Петербург 2020</p>
+          </li>
+        </ul>
+      </section>
+      <!-- section-cards -->
+      <section class="section-cards">
+        <h1 class="headline">Заголовок блока с персонами</h1>
+        <ul class="cards">
+          <li class="card">
+            <div class="card__title">
+              <img
+                class="card__img"
+                src="./images/proLinya.png"
+                alt="драматург"
+              />
+            </div>
+
+            <h2 class="card__author">Екатерина Августеняк</h2>
+            <p class="card__location">Санкт-Петербург 2020</p>
+          </li>
+          <li class="card">
+            <div class="card__title">
+              <img
+                class="card__img"
+                src="./images/Rectangle159.jpg"
+                alt="драматург"
+              />
+            </div>
+            <h2 class="card__author">Екатерина Августеняк</h2>
+            <p class="card__location">Санкт-Петербург 2020</p>
+          </li>
+          <li class="card">
+            <div class="card__title">
+              <img
+                class="card__img"
+                src="./images/Rectangle160.jpg"
+                alt="драматург"
+              />
+            </div>
+
+            <h2 class="card__author">Екатерина Августеняк</h2>
+            <p class="card__location">Санкт-Петербург 2020</p>
+          </li>
+          <li class="card">
+            <div class="card__title">
+              <img
+                class="card__img"
+                src="./images/Rectangle158.jpg"
+                alt="драматург"
+              />
+            </div>
+            <h2 class="card__author">Екатерина Августеняк</h2>
+            <p class="card__location">Санкт-Петербург 2020</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="block-with-btn">
+        <div class="block-with-btn__wrapper">
+          <h4 class="block-with-btn__header">
+            Заголовок блока<br />с кнопкой/ссылкой
+          </h4>
+          <div class="block-with-btn__container">
+            <p class="block-with-btn__text">
+              Видео прошедших мероприятий можно посмотреть в плейлисте на канале
+              Любимовки в YouTube
+            </p>
+            <button type="button" class="block-with-btn__btn">youtube</button>
+          </div>
+        </div>
+      </section>
+      <section class="cooperation">
+        <h3 class="cooperation__header">Проект открыт<br />к сотрудничеству</h3>
+        <div class="cooperation__text">
+          <p class="cooperation__paragraph">
+            Мы находимся в постоянном поиске режиссёров и актеров,
+            заинтересованных в постановке читок.
+          </p>
+          <p class="cooperation__paragraph">
+            Пишите на
+            <a class="cooperation__link" href="mailto:more@lubimovka.ru"
+              >more@lubimovka.ru</a
+            >
+          </p>
+        </div>
+      </section>
+      <section class="popup popup_full-photo">
+        <div class="popup__photo-container">
+          <button
+            type="button"
+            class="popup__close-button popup__close-button_photo"
+          ></button>
+          <button type="button" class="popup__slider-prev"></button>
+          <img class="popup__photo" src="#" alt="" />
+          <button type="button" class="popup__slider-next"></button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <!-- </div> -->
+    <!-- <div  открывающий див на 22 стр   class="page"> -->
+    <script src="script.js"></script>
+    <!-- ======= -->
   </body>
 </html>

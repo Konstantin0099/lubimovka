@@ -25,6 +25,19 @@
 @import url(./blocks/line/line.css);
 @import url(./blocks/line/_quantity/line_quantity_two.css);
 
+@import "./blocks/block-with-btn/block-with-btn.css";
+@import "./blocks/block-with-btn/__btn/block-with-btn__btn.css";
+@import "./blocks/block-with-btn/__container/block-with-btn__container.css";
+@import "./blocks/block-with-btn/__header/block-with-btn__header.css";
+@import "./blocks/block-with-btn/__text/block-with-btn__text.css";
+@import "./blocks/block-with-btn/__wrapper/block-with-btn__wrapper.css";
+
+@import "./blocks/cooperation/cooperation.css";
+@import "./blocks/cooperation/__header/cooperation__header.css";
+@import "./blocks/cooperation/__text/cooperation__text.css";
+@import "./blocks/cooperation/__paragraph/cooperation__paragraph.css";
+@import "./blocks/cooperation/__link/cooperation__link.css";
+
 body {
   font-family: "Formular";
   max-width: 1440px;

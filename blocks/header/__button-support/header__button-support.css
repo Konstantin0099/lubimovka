@@ -1,0 +1,15 @@
+.header__button-support{
+    width: 167px;
+    height: 50px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border: none;
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__button-support{
+        display: flex;
+        margin-left: 2px;
+    }
+  }

@@ -1,0 +1,19 @@
+.intro__about{
+    background-color: #B7C09D;
+    margin: -5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .intro__about{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4; 
+        height: 396px;
+      }  
+    }
+ 

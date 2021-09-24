@@ -1,0 +1,16 @@
+.content {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  /* justify-content: space-around; */
+  color: #242424;
+  background-color: #ecebe8;
+}
+
+/* @media screen and (max-width: 767px) {
+  .content {
+    padding: 0 16px;
+  }
+} */
