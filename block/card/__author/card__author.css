@@ -1,0 +1,35 @@
+.card__author {
+  font-family: Neue Machina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  grid-area: author;
+  display: inline-block;
+  color: #242424;
+  max-width: 190px;
+  max-height: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: auto 0 0;
+  border: 0;
+}
+/* 
+font-size: 28px;
+line-height: 32px; */
+
+.card__author:hover .autor-span {
+  padding: 2px 5px;
+  box-sizing: content-box;
+	background:black;
+  color: wheat;
+  transition: all 50ms ease 0s;
+  
+}
+.card__author:hover {
+  position: relative;
+  right: 5px;
+}
+
+
