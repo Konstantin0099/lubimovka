@@ -1,0 +1,13 @@
+.header__network {
+width: 267px;
+justify-content: space-around;
+margin-top: 12px;
+display: none;
+  }
+
+
+  @media screen and (min-width: 1440px) {
+    .header__network{
+        display: flex;
+    }
+  }

@@ -1,0 +1,14 @@
+.header__link {
+  font-family: Formular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+
