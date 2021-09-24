@@ -1,0 +1,16 @@
+.block-with-btn__container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 860px) {
+  .block-with-btn__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .block-with-btn__container {
+    padding-left: 60px;
+  }
+}
