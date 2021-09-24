@@ -1,4 +1,4 @@
-.card-play-cover__author {
+.card__author {
   font-family: Neue Machina;
   font-style: normal;
   font-weight: normal;
@@ -19,7 +19,7 @@
 font-size: 28px;
 line-height: 32px; */
 
-.card-play-cover__author:hover .autor-span {
+.card__author:hover .autor-span {
   padding: 2px 5px;
   box-sizing: content-box;
 	background:black;
@@ -27,7 +27,7 @@ line-height: 32px; */
   transition: all 50ms ease 0s;
   
 }
-.card-play-cover__author:hover {
+.card__author:hover {
   position: relative;
   right: 5px;
 }

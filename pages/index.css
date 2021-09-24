@@ -9,15 +9,17 @@
 
 @import url(../block/content/content.css);
 
-@import url(../block/section-cards-play-cover/section-cards-play-cover.css);
-@import url(../block/cards-play-cover/cards-play-cover.css);
+@import url(../block/section-cards/section-cards.css);
+@import url(../block/cards/cards.css);
 
-@import url(../block/card-play-cover/card-play-cover.css);
-@import url(../block/card-play-cover/__title/card-play-cover__title.css);
-@import url(../block/card-play-cover/__author/card-play-cover__author.css);
-@import url(../block/card-play-cover/__location/card-play-cover__location.css);
-@import url(../block/card-play-cover/__text/card-play-cover__text.css);
-@import url(../block/card-play-cover/__img/card-play-cover__img.css);
+@import url(../block/card/card.css);
+@import url(../block/card/__title/card__title.css);
+@import url(../block/card/__author/card__author.css);
+@import url(../block/card/__location/card__location.css);
+@import url(../block/card/__text/card__text.css);
+@import url(../block/card/__img/card__img.css);
+@import url(../block/card/__download-play/card__download-play.css);
+@import url(../block/card/__look-chitka/card__look-chitka.css);
 
 @import url(../block/headline/headline.css);
 
