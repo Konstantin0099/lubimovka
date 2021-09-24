@@ -1,0 +1,22 @@
+.cooperation__text {
+  padding-left: 60px;
+  width: 70%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+}
+
+@media screen and (max-width: 525px) {
+  .cooperation__text {
+    width: 90%;
+    padding-left: 0;
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+  }
+}

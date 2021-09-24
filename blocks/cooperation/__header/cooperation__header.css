@@ -1,0 +1,31 @@
+.cooperation__header {
+  margin: 0;
+  position: relative;
+  font-family: Neue Machina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 38px;
+  letter-spacing: -0.01em;
+}
+.cooperation__header::after {
+  position: absolute;
+  content: "";
+  left: -30px;
+  top: -30px;
+  width: 25px;
+  height: 25px;
+  background-image: url("../../../images/icons/asterisk.svg");
+}
+
+
+@media screen and (max-width: 525px) {
+  .cooperation__header {
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+  }
+}

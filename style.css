@@ -32,6 +32,11 @@
 @import "./blocks/block-with-btn/__text/block-with-btn__text.css";
 @import "./blocks/block-with-btn/__wrapper/block-with-btn__wrapper.css";
 
+@import "./blocks/cooperation/cooperation.css";
+@import "./blocks/cooperation/__header/cooperation__header.css";
+@import "./blocks/cooperation/__text/cooperation__text.css";
+@import "./blocks/cooperation/__paragraph/cooperation__paragraph.css";
+@import "./blocks/cooperation/__link/cooperation__link.css";
 
 body {
   font-family: "Formular";
