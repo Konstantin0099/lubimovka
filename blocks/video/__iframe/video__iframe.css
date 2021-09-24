@@ -1,0 +1,15 @@
+.video__iframe {
+  border: none;
+  margin-right: 30px;
+}
+
+.video__iframe-first {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .video__iframe {
+    width: 716px;
+    height: 403px;
+  }
+}
