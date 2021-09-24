@@ -1,7 +1,7 @@
 .card-play-cover__title {
     display: block;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 0;
   height: 100%;
   background-color: #b7c09d;
