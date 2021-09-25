@@ -16,6 +16,7 @@
 .block-with-btn__btn:hover {
   color: #ECEBE8;
   background-color: #242424;
+  transition: color .3s, background-color .3s;
 }
 
 .block-with-btn__btn:hover::after {
