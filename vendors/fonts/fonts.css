@@ -1,13 +1,33 @@
-@font-face {
+/* @font-face {
   src: url(./formular-light.woff) format("woff"),
     url(./formular-light.woff2) format("woff2");
   font-family: "Formular";
   font-weight: 300;
-}
-
+} */
+/* 
 @font-face {
   src: url(./PPNeueMachina-Regular.woff) format("woff"),
     url(./PPNeueMachina-Regular.woff2) format("woff2");
   font-family: "Neue Machina";
   font-weight: 400;
+} */
+
+@font-face {
+  font-family: "Neue Machina";
+  src: url(../NeueMachinaRegular/PPNeueMachina-Regular.eot) format("eot"),
+    url(../../NeueMachinaRegular/PPNeueMachina-Regular.ttf)
+      format("truetype"),
+    url(../NeueMachinaRegular/PPNeueMachina-Regular.woff2) format("woff2"),
+    url(../NeueMachinaRegular/PPNeueMachina-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url(../FormularLight/formular-light.eot) format("eot"),
+    url(../FormularLight/formular-light.woff2) format("woff2"),
+    url(../FormularLight/formular-light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
 }

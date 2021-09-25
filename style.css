@@ -1,6 +1,6 @@
 @import url(./vendors/normalize.css);
-@import url(./vendors/fonts/fonts.css);
-@import url(./blocks/spectacle/spectacle.css);
+/* @import url(./vendors/fonts/fonts.css); */
+/* @import url(./blocks/spectacle/spectacle.css);
 @import url(./blocks/spectacles/__title/spectacles__title.css);
 @import url(./blocks/spectacles/__title-mobile/spectacles__title-mobile.css);
 @import url(./blocks/spectacles/__title/_quantity/spectacles__title_quantity_one.css);
@@ -36,10 +36,10 @@
 @import "./blocks/cooperation/__header/cooperation__header.css";
 @import "./blocks/cooperation/__text/cooperation__text.css";
 @import "./blocks/cooperation/__paragraph/cooperation__paragraph.css";
-@import "./blocks/cooperation/__link/cooperation__link.css";
-
+@import "./blocks/cooperation/__link/cooperation__link.css"; */
+/* 
 body {
   font-family: "Formular";
   max-width: 1440px;
   color: #242424;
-}
+} */
