@@ -13,6 +13,15 @@
   cursor: pointer;
 }
 
+.block-with-btn__btn:hover {
+  color: #ECEBE8;
+  background-color: #242424;
+}
+
+.block-with-btn__btn:hover::after {
+  background-image: url("../../../images/icons/arrow-right-white.svg");
+}
+
 .block-with-btn__btn::after {
   position: absolute;
   content: " ";
