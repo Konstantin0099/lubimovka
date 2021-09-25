@@ -6,3 +6,10 @@
   font-size: 14px;
   line-height: 17px;
 }
+
+@media screen and (max-width: 1030px) {
+  .developers {
+    flex-direction: column;
+    margin-right: 0;
+  }
+}

@@ -1,3 +1,14 @@
 .partners__partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 31px;
+}
 
+@media screen and (max-width: 1030px) {
+  .partners__partner {
+    width: 182px;
+    height: 118px;
+    margin: 0;
+  }
 }

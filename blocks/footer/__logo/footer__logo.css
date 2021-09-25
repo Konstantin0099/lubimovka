@@ -7,3 +7,10 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media screen and (max-width: 670px) {
+  .footer__logo {
+    margin: 0 0 33px 58px;
+    background-position: left;
+  }
+}
