@@ -1,0 +1,21 @@
+.intro__image {
+  width: 100%;
+  cursor:inherit;
+}
+
+.intro__image:hover{
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__image {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+}
+
+.intro__img-cover{
+  overflow: hidden;
+}

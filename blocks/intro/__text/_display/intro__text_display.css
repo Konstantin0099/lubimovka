@@ -1,0 +1,9 @@
+.intro__text_display{
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .intro__text_display{
+        display: none;
+    }
+  }

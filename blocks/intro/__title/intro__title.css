@@ -1,0 +1,26 @@
+.intro__title {
+  font-family: Neue Machina;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin: 48px 0 25px 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__title {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0;
+    width: 450px;
+    font-size: 72px;
+    line-height: 70px;
+    word-break: break-all;
+    height: 218px;
+  }
+}
+

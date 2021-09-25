@@ -1,0 +1,62 @@
+.header__button-support{
+    width: 167px;
+    height: 50px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border: none;
+    display: none;
+    margin: 0;
+    background-image: url(../../../image/plusBlack.svg);
+    background-position: left;
+    background-size: initial;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    font-family: Formular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+  position: relative;
+  overflow: hidden;
+}
+.header__button-support::after{
+  display: flex;
+  content: "ПОДДЕРЖАТЬ";
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  opacity: 0;
+  background-image: url(../../../image/plusBlack.svg);
+  background-position: left;
+  background-size: initial;
+  background-repeat: no-repeat;
+  color: white;
+  flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header__button-support:hover::after{
+    background-image: url(../../../image/plusWhite.svg);
+    opacity: 1;
+    right: 0;
+    transition: 0.15s linear 0s;
+  }
+
+  .header__button-support:active {
+    transform: scale(1.2);
+  }
+
+@media screen and (min-width: 1024px) {
+    .header__button-support{
+        display: flex;
+    }
+  }
+

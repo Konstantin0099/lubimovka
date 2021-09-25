@@ -1,0 +1,11 @@
+.header {
+  margin: 32px 0 0;
+  display: flex;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    display: block;
+    margin: 7px 0 0;
+  }
+}
