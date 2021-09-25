@@ -1,0 +1,21 @@
+.video__frame{
+    width: 100%;
+    margin: 35px 0 0;
+    display: flex;
+    justify-content: start;
+    overflow: hidden;
+    padding: 0;
+}
+
+.video__flex{
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .video__frame {
+        justify-content: center;
+    }
+    .video__frame:last-of-type{
+        justify-content: start;
+    }
+}

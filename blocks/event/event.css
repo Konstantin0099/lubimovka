@@ -1,7 +1,9 @@
 .event {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   padding-top: 75px;
+  overflow: hidden;
 }
 
 @media (max-width: 1024px) {

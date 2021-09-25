@@ -1,0 +1,16 @@
+.header__links{
+    padding: 0;
+    list-style: none;
+    width: 900px;
+    justify-content: space-between;
+    display: none; 
+}
+
+@media screen and (min-width: 1024px) {
+    .header__links{
+        display: flex;
+    }
+        .header__links:first-of-type{
+        margin: 12px 30px auto 40px;
+    }
+  }

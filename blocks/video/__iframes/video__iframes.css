@@ -1,0 +1,14 @@
+
+@media screen and (min-width: 1024px) {
+    .video__iframes {
+        width: 420px;
+        height: 236px;
+        padding: 20px 0 0 35px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .video__iframes {
+    height: 236px;
+  }
+}
