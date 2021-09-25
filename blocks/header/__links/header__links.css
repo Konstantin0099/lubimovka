@@ -1,7 +1,7 @@
 .header__links{
     padding: 0;
     list-style: none;
-    width: 900px;
+    width: 700px;
     justify-content: space-between;
     display: none; 
 }
