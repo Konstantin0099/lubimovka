@@ -1,7 +1,6 @@
 @import url(../vendors/normalize.css);
 
-@import url(../vendors/FormularLight/formular-light.css);
-@import url(../vendors/NeueMachinaRegular/NeueMachina.css);
+@import url(../vendors/fonts/fonts.css);
 
 @import url(../blocks/root/root.css);
 
@@ -23,7 +22,6 @@
 
 @import url(../blocks/headline/headline.css);
 
-@import url(../vendors/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -107,8 +105,8 @@
 @import "../blocks/developers/__link/developers__link.css";
 
 /* @import url(../vendor/normalize.css); */
-@import url(../vendor/fonts.css);
-@import url(../blocks/page/page.css); /* дублируются */
+/* @import url(../vendor/fonts.css); */
+
 /* header  */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__button/header__button.css);
@@ -137,4 +135,47 @@
 @import url(../blocks/video/__frame/video__frame.css);
 @import url(../blocks/video/__text/video_text.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
+/* <<<<<<< HEAD */
 @import url(../blocks/video/__iframes/video__iframes.css);
+
+
+@import url(../blocks/spectacle/spectacle.css);
+@import url(../blocks/spectacles/__title/spectacles__title.css);
+@import url(../blocks/spectacles/__title-mobile/spectacles__title-mobile.css);
+@import url(../blocks/spectacles/__title/_quantity/spectacles__title_quantity_one.css);
+@import url(../blocks/spectacles/_quantity/spectacles_quantity_one.css);
+@import url(../blocks/spectacles/__group/spectacles__group.css);
+@import url(../blocks/spectacles/__group-mobile/spectacles__group-mobile.css);
+@import url(../blocks/spectacles/__group/_quantity/spectacles__group_quantity_two.css);
+@import url(../blocks/spectacles/__group/_quantity/spectacles__group_quantity_one.css);
+@import url(../blocks/event/event.css);
+@import url(../blocks/event/_quantity/event_quantity_one.css);
+@import url(../blocks/event/__image/event__image.css);
+@import url(../blocks/event/__info/event__info.css);
+@import url(../blocks/event/__info-date/event__info-date.css);
+@import url(../blocks/event/__info-day/event__info-day.css);
+@import url(../blocks/event/__info-time/event__info-time.css);
+@import url(../blocks/event/__info-title/event__info-title.css);
+@import url(../blocks/event/__info-author/event__info-author.css);
+@import url(../blocks/event/__info-text/event__info-text.css);
+@import url(../blocks/event/__info-about/event__info-about.css);
+@import url(../blocks/event/__info-tickets/event__info-tickets.css);
+@import url(../blocks/event/__info-button/event-info-button.css);
+@import url(../blocks/line/line.css);
+@import url(../blocks/line/_quantity/line_quantity_two.css);
+
+@import "../blocks/block-with-btn/block-with-btn.css";
+@import "../blocks/block-with-btn/__btn/block-with-btn__btn.css";
+@import "../blocks/block-with-btn/__container/block-with-btn__container.css";
+@import "../blocks/block-with-btn/__header/block-with-btn__header.css";
+@import "../blocks/block-with-btn/__text/block-with-btn__text.css";
+@import "../blocks/block-with-btn/__wrapper/block-with-btn__wrapper.css";
+
+@import "../blocks/cooperation/cooperation.css";
+@import "../blocks/cooperation/__header/cooperation__header.css";
+@import "../blocks/cooperation/__text/cooperation__text.css";
+@import "../blocks/cooperation/__paragraph/cooperation__paragraph.css";
+@import "../blocks/cooperation/__link/cooperation__link.css";
+/* ======= */
+@import url(../blocks/video/__iframes/video__iframes.css);
+/* >>>>>>> 7f348e156f6b2ad2b97202f42f459dc9d15f0979 */
