@@ -1,5 +1,9 @@
 .footer__logo {
-  width: 93px;
+  margin-left: 32px;
+  margin-right: 82px;
+  min-width: 93px;
   height: 81px;
   background-image: url("../../../images/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }

@@ -1,3 +1,5 @@
 .footer {
-
+  margin-bottom: 50px;
+  display: flex;
+  background: #E5E5E5;
 }
