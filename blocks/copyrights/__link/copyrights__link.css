@@ -1,8 +1,13 @@
 .copyrights__link {
   color: #242424;
+  text-decoration: none;
   font-family: Formular;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
+}
+
+.copyrights__link:hover {
+  text-decoration: underline;
 }

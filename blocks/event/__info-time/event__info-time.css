@@ -1,9 +1,9 @@
 .event__info-time {
   margin: 0;
+  font-family: "Formular";
   font-size: 20px;
   line-height: 28px;
   letter-spacing: -0.01em;
-  font-feature-settings: "ss01" on;
 }
 
 @media (max-width: 500px) {
