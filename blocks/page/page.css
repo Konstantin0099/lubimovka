@@ -8,15 +8,3 @@
   min-width: 414px;
   font-family: "Formular", "Neue Machina", Arial, Helvetica, sans-serif;
 }
-
-@media (min-width: 1400px) {
-  .page {
-    padding: 0 calc((100% - 1400px) / 2);
-  }
-}
-
-/* body { */
-/* font-family: "Formular"; */
-/* max-width: 1440px; */
-/* color: #242424; */
-/* } */
