@@ -1,5 +1,5 @@
 .header__button {
-  width: 113px;
+  width: 102px;
   height: 28px;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
@@ -24,6 +24,7 @@
   letter-spacing: 0em;
   text-align: left;
   overflow: hidden;
+  padding-left: 10px;
 }
 
 .header__button::after {
@@ -33,7 +34,7 @@
   height: 100%;
   position: absolute;
   top: 0;
-  right: 100%;
+  left: 100%;
   background-image: url(../../../image/Untitled.svg);
   background-position: right;
   background-size: initial;
@@ -55,7 +56,7 @@
 }
 
 .header__button:hover::after {
-  right: 0;
+  left: 0;
   opacity: 1;
   background-image: url(../../../image/Untitled.svg);
   transition: 0.15s linear 0s;
@@ -73,14 +74,4 @@
   }
 }
 
-.header__button_text {
-  font-family: Formular;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 14px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: white;
-  z-index: 2;
-}
+

@@ -5,6 +5,7 @@
         grid-template-rows: repeat(3, auto);
         align-items: flex-start;
         /* height: 1045px; */
-        margin-top: -15px;
+        margin-top: -17px;
+        width: 100%;
     }
   }
