@@ -1,15 +1,14 @@
 .title {
-  font-family: 'Neue Machina';
+  font-family: "Neue Machina";
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
   line-height: 40px;
-  margin: 145px auto 0;
-  text-align: center;
   max-width: 568px;
+  margin: 145px 35.4% 0 25.1%;
 }
 
-@media (max-width:725px) {
+@media (max-width: 725px) {
   .title {
     font-size: 28px;
     line-height: 32px;
