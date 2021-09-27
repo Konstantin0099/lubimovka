@@ -1,10 +1,13 @@
+
 .intro__image {
   width: 100%;
-  cursor:inherit;
+  min-height: 450px;
+  object-fit: cover;
 }
 
 .intro__image:hover{
   transform: scale(1.2);
+  transition: transform 400ms cubic-bezier(0.6, 0, 0.6, 1);
 }
 
 @media screen and (min-width: 1024px) {

@@ -1,3 +1,9 @@
 .video{
     margin: 57px 0 0;
 }
+
+@media screen and (min-width: 1024px) {
+    .video {
+        margin: 90px 0 0 0;
+  }
+  }
