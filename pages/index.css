@@ -124,3 +124,8 @@
 @import url(../blocks/footer/__menus/footer__menus.css);
 @import url(../blocks/footer/__rights/footer__rights.css);
 
+@import url(../blocks/card/__author-name/card__author-name.css);
+@import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/card/__button/_download-piece/card__button_download-piece.css);
+@import url(../blocks/card/__button/_look-chitka/card__button_look-chitka.css);
+@import url(../blocks/card/_play-cover/card_play-cover.css);

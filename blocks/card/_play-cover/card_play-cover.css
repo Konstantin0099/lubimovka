@@ -1,0 +1,9 @@
+.card_play-cover {
+    grid-template-rows: 300px 64px 48px;
+          gap: 0;
+    grid-template-areas:
+    "title"
+    "author"
+    "location";
+    align-items: center;
+  }
