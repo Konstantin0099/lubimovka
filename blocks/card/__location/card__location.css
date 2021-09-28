@@ -12,5 +12,5 @@
   overflow: hidden;
   text-overflow: ellipsis;
   margin: auto 0 0;
-  border: 0;
+  border: none;
 }

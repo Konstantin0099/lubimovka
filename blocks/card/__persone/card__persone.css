@@ -1,5 +1,5 @@
-.card_play-cover {
-  grid-template-rows: 300px 64px 48px;
+.card_persone {
+  grid-template-rows: 265px 80px 52px;
   gap: 0;
   grid-template-areas:
     "title"

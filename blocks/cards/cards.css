@@ -5,18 +5,15 @@
     padding: 0 5px 20px 5px;
     box-sizing: content-box;
     grid-auto-flow: column;
-    grid-template-columns: 240px;
+    /* grid-template-columns: 240px; */
     gap: 30px;
-    grid-auto-columns: 240px;
+    /* grid-auto-columns: 240px; */
     width: 100%;
   }
  
-  @media screen and (max-width: 1440px) {
-    .cards {
-     overflow-x: scroll;
-     justify-content: start;
-    }
-  }
+
+
+
   /*
   @media screen and (max-width: 590px) {
     .cards {
