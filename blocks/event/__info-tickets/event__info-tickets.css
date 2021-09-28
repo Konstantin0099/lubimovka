@@ -1,49 +1,33 @@
 .event__info-tickets {
   display: inline-block;
+  background: url(../../../images/buttonTickets.svg);
   width: 154px;
   height: 32px;
   box-sizing: border-box;
-  /* transition: box-shadow 1s ease, color 1s ease; */
   padding: 0;
 }
-
-/* .event__info-tickets:hover {
-  stroke: white;
-  background-color: #000;
-  transition: 0.5s;
-  box-shadow: inset 154px 0 #000;
-}
-.event__info-tickets:active {
-  stroke: white;
-  background-color: #000;
-  transition: 0.5s;
-  box-shadow: inset 154px 0 #000;
-  transform: scale(1.5, 1.3);
-} */
 
 .event__info-tickets::after {
   content: "";
   position: absolute;
-  left: -154px;
-  z-index: 1;
+  left: 0;
+  opacity: 0;
   height: 32px;
-  width: 154px;
+  width: 0;
+  background-image: url(../../../images/buttonTicketsWhite.svg);
   background-color: #000;
   transition: 1s;
-  stroke: white;
-  fill: white;
 }
 .event__info-tickets:hover::after {
-  transform: translateX(154px);
-  /* box-shadow: inset 154px 0 #000; */
-  z-index: 1;
-  transition: 0.7s;
-  stroke: white;
-  fill: white;
+  background-image: url(../../../images/buttonTicketsWhite.svg);
+  background-color: #000;
+  opacity: 1;
+  width: 154px;
+  transition: width 400ms ease 100ms;
 }
 
 .event__info-tickets:active::after {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.1, 1.1);
   background-color: #000;
   z-index: 1;
   left: 0;
@@ -51,8 +35,7 @@
 
 @media (max-width: 500px) {
   .event__info-tickets::after {
-    left: 52px;
-    z-index: -1;
+    left: 205px;
   }
   .event__info-tickets:active::after {
     left: 210px;

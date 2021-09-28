@@ -2,8 +2,8 @@
   position: relative;
   overflow: hidden;
   z-index: 2;
-  fill: white;
 }
+
 .event__info-button:hover {
   stroke: white;
 }

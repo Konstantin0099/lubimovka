@@ -1,5 +1,6 @@
 .event__info-about {
   padding: 0;
+  background: url(../../../images/buttonAbout.svg);
   margin-bottom: 16px;
   display: inline-block;
   width: 154px;
@@ -8,26 +9,23 @@
 .event__info-about::after {
   content: "";
   position: absolute;
-  left: -154px;
-  z-index: 1;
+  left: 0;
+  opacity: 0;
   height: 32px;
-  width: 154px;
+  width: 0;
+  background-image: url(../../../images/buttonAboutWhite.svg);
   background-color: #000;
   transition: 1s;
-  stroke: white;
-  fill: white;
 }
 .event__info-about:hover::after {
-  transform: translateX(154px);
-  /* box-shadow: inset 154px 0 #000; */
-  z-index: 1;
-  transition: 0.7s;
-  stroke: white;
-  fill: white;
+  background-color: #000;
+  opacity: 1;
+  width: 154px;
+  transition: width 400ms ease 100ms;
 }
 
 .event__info-about:active::after {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.1, 1.1);
   background-color: #000;
   z-index: 1;
   left: 0;
@@ -40,8 +38,7 @@
   }
 
   .event__info-about::after {
-    left: -129px;
-    z-index: -1;
+    left: 24px;
   }
 
   .event__info-about:active::after {
