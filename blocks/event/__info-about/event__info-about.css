@@ -10,26 +10,21 @@
   content: "";
   position: absolute;
   left: 0;
-  opacity: 0;
   height: 32px;
   width: 0;
   background-image: url(../../../images/buttonAboutWhite.svg);
   background-color: #000;
-  transition: 1s;
+  transition: 0.5s;
 }
 .event__info-about:hover::after {
-  background-color: #000;
-  opacity: 1;
   width: 154px;
-  transition: width 400ms ease 100ms;
 }
 
 .event__info-about:active::after {
   transform: scale(1.1, 1.1);
-  background-color: #000;
-  z-index: 1;
   left: 0;
 }
+
 @media (max-width: 500px) {
   .event__info-about {
     margin-bottom: 0;

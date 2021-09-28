@@ -11,25 +11,18 @@
   content: "";
   position: absolute;
   left: 0;
-  opacity: 0;
   height: 32px;
   width: 0;
   background-image: url(../../../images/buttonTicketsWhite.svg);
   background-color: #000;
-  transition: 1s;
+  transition: 0.5s;
 }
 .event__info-tickets:hover::after {
-  background-image: url(../../../images/buttonTicketsWhite.svg);
-  background-color: #000;
-  opacity: 1;
   width: 154px;
-  transition: width 400ms ease 100ms;
 }
 
 .event__info-tickets:active::after {
   transform: scale(1.1, 1.1);
-  background-color: #000;
-  z-index: 1;
   left: 0;
 }
 
