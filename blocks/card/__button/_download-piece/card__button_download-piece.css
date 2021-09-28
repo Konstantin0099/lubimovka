@@ -1,3 +1,12 @@
-.card__button_download-piece { 
-      background-image: url(../../../../images/button/downloadpiece.svg);
-    }
+.card__button_download-piece {
+  background-color: #B7C09D;
+  border-top: 1px solid #242424;
+  background-position: 18px;
+  display: block;
+  background-image: url(../../../../images/button/downloadpiece.svg);
+}
+
+.card__button_download-piece:hover .card__button_download-piece-span {
+  width: 100%;
+  transition: width 1s ease 0ms;
+}

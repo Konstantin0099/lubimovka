@@ -1,0 +1,10 @@
+.card__button_download-piece-span {
+  background-image: url(../../../../images/button/downloadpieceW.svg);
+  display: block;
+  height: 56px;
+  width: 0%;
+  transition: width 500ms ease 0ms;
+  background-size: 200px 50px;
+  background-color: black;
+  background-position: 18px;
+}

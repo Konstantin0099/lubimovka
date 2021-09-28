@@ -1,24 +1,16 @@
-.card__button{
-opacity: 0;
-    padding: 0;
-    width: 100%;
-    height: 56px;
-    border: none;
-    border-top: 1px solid #242424;
-    background-position: 50% 40%;
-    /* background-color: #B7C09D; */
-    background-color: white;
+.card__button {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 240px;
+  height: 56px;
+  border: none;
   background-repeat: no-repeat;
-  /* color:brown; */
+  background-size: 200px 50px;
+}
 
+@media screen and (max-width: 525px) {
+  .card__button {
+    opacity: 1;
   }
-
-  .card__button:hover {
-    filter: invert(100%);
-  }
-
-  @media screen and (max-width: 525px) {
-    .card__button {
-      opacity: 1;
-    }
-  }
+}

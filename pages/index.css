@@ -129,3 +129,5 @@
 @import url(../blocks/card/__button/_download-piece/card__button_download-piece.css);
 @import url(../blocks/card/__button/_look-chitka/card__button_look-chitka.css);
 @import url(../blocks/card/_play-cover/card_play-cover.css);
+@import url(../blocks/card/__button/_download-piece-span/card__button_download-piece-span.css);
+@import url(../blocks/card/__button/_look-chitka-span/card__button_look-chitka-span.css);
