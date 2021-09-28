@@ -1,0 +1,11 @@
+.cards_persones {
+    grid-template-columns: 213px;
+    grid-auto-columns: 213px;
+}
+
+@media screen and (max-width: 1000px) {
+    .cards_persones {
+     overflow-x: scroll;
+     justify-content: start;
+    }
+  } 
