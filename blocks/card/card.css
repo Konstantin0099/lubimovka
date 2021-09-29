@@ -1,25 +1,6 @@
 .card {
-        /* height: 412px; */
-        /* width: 30%; */
-        /* position: relative; */
-        display: grid;
-        grid-template-columns: 100%;
-        /* grid-template-rows: 300px 64px 48px;
-        gap: 0;
-        grid-template-areas:
-          "title"
-          "author"
-          "location";
-        align-items: center; */
-        margin: 0;
-        padding: 0;
-      }
-/* .card_play-cover {
-  grid-template-rows: 300px 64px 48px;
-        gap: 0;
-  grid-template-areas:
-  "title"
-  "author"
-  "location";
-  align-items: center;
-} */
+  display: grid;
+  grid-template-columns: 100%;
+  margin: 0;
+  padding: 0;
+}

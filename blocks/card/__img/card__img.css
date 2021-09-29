@@ -10,7 +10,6 @@
 
 .card__img:hover {
   transform: matrix(1.2, 0, 0, 1.2, 0, 20);
-  /* transform: scale(120%); */
   object-position: bottom;
   transition: all 400ms cubic-bezier(0.6, 0, 0.5, 0.1);
 }

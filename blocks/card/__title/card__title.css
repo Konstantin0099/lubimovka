@@ -9,7 +9,6 @@
   overflow: hidden;
   cursor: pointer;
 }
-
 .card__title:hover .card__button_hover {
   width: 240px;
   height: 56px;
