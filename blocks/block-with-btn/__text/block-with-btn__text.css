@@ -1,7 +1,7 @@
 .block-with-btn__text {
   width: 410px;
   margin: 0 100px 0 0;
-  font-family: Formular;
+  font-family: Formular, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
   font-style: normal;
