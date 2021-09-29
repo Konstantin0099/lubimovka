@@ -1,24 +1,17 @@
 .card__text {
-    display: block;
-    margin: 24px auto auto;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Neue Machina;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    /* or 120% */
-  
-    letter-spacing: -0.01em;
-  
-    /* black */
-  
-    color: #242424;
-    max-width: 185px;
-    max-height: 185px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-
-  }
-  
+  display: block;
+  margin: 24px auto auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Neue Machina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #242424;
+  max-width: 185px;
+  max-height: 185px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

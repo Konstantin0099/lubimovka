@@ -2,15 +2,10 @@
   font-family: Neue Machina;
   font-style: normal;
   font-weight: normal;
-  /* font-size: 20px;
-  line-height: 24px;
-  letter-spacing: -0.01em; */
   grid-area: author;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* display: inline; */
-  /* display: inline-block; */
   color: #242424;
   background: #ecece5;
   max-width: 190px;
@@ -21,14 +16,11 @@
   border: 0;
   cursor: pointer;
 }
-/* 
-font-size: 28px;
-line-height: 32px; */
 
 .card__author:hover .card__author-name {
   padding: 1px 5px;
   box-sizing: content-box;
-	background:black;
+  background: black;
   color: white;
   transition: background 300ms ease 0ms;
 }
