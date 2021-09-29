@@ -3,8 +3,7 @@
   display: block;
   height: 56px;
   width: 0;
-  opacity: 0;
-  transition: width 500ms ease 0ms;
+  transition: all 400ms ease 100ms;
   background-size: 200px 50px;
   background-color: black;
   background-position: 18px;
