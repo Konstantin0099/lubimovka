@@ -5,7 +5,7 @@
 @media (max-width: 500px) {
   .spectacles__title-mobile {
     display: block;
-    font-family: "Neue Machina";
+    font-family: "Neue Machina", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
