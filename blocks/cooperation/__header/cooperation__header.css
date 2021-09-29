@@ -1,7 +1,7 @@
 .cooperation__header {
   margin: 0;
   position: relative;
-  font-family: Neue Machina;
+  font-family: Neue Machina, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 525px) {
   .cooperation__header {
-    font-family: Neue Machina;
+    font-family: Neue Machina, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
