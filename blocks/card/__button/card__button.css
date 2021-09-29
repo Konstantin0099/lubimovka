@@ -4,7 +4,6 @@
   margin: 0;
   width: 240px;
   height: 0px;
-  /* opacity: 0; */
   border: none;
   background-repeat: no-repeat;
   background-size: 200px 50px;
@@ -14,6 +13,5 @@
 @media screen and (max-width: 525px) {
   .card__button {
     height: 56px;
-    opacity: 1;
   }
 }

@@ -8,5 +8,4 @@
 .card__button_look-chitka:hover .card__button_look-chitka-span {
     width: 100%;
     transition: width 400ms ease 100ms;
-    opacity: 1;
 }

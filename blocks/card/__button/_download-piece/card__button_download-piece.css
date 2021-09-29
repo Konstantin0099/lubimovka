@@ -8,5 +8,4 @@
 .card__button_download-piece:hover .card__button_download-piece-span {
   width: 100%;
   transition: width 400ms ease 100ms;
-  opacity: 1;
 }
