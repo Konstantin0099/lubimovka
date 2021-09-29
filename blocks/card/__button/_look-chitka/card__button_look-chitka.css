@@ -1,7 +1,6 @@
 .card__button_look-chitka {
     background-image: url(../../../../images/button/lookChitka.svg);
     background-color: #B7C09D;
-    border-top: 1px solid #242424;
     background-position: 18px;
     display: block;
 }
