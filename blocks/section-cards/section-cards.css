@@ -5,23 +5,11 @@
   margin: 0 auto;
   padding: 0 60px;
   box-sizing: border-box;
-  /* max-width: 1440px; */
   width: 100%;
 }
 
-/* @media screen and (max-width: 1023px) {
-        .section-cardss {
-          max-width: 703px;
-        }
-      }
-      @media screen and (max-width: 590px) {
-        .section-cards {
-          max-width: 100%;
-        }
-      }
-      @media screen and (max-width: 425px) {
-        .section-cards{
-
-        }
-      }
-       */
+@media screen and (max-width: 1000px) {
+  .section-cards {
+    padding: 0 24px;
+  }
+}
