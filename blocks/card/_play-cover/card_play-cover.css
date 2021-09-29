@@ -7,3 +7,9 @@
     "location";
   align-items: center;
 }
+
+@media screen and (max-width: 525px) {
+  .card_play-cover {
+    grid-template-rows: 342px 47px 52px;
+  }
+}
