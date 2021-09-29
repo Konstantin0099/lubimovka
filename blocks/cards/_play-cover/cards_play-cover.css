@@ -9,3 +9,11 @@
     justify-content: start;
   }
 }
+
+
+@media screen and (max-width: 525px) {
+  .cards_play-cover {
+    grid-template-columns: 244px;
+  grid-auto-columns: 244px;
+  }
+}

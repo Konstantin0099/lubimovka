@@ -16,3 +16,11 @@
 
   color: #242424;
 }
+
+@media screen and (max-width: 525px) {
+  .headline {
+    left: 0%;
+    font-size: 28px;
+    margin: 100px 0 32px 0;
+  }
+}
