@@ -7,3 +7,11 @@
   border: 0;
   cursor: pointer;
 }
+
+.card__author:hover .card__author_persone {
+  padding: 0 5px;
+  box-sizing: content-box;
+  background: black;
+  color: white;
+  transition: background 300ms ease 0ms;
+}
