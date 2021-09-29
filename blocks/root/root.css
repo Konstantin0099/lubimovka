@@ -1,9 +1,7 @@
 .root {
   display: flex;
   background-color: #E5E5E5;
-  /* color: #242424; */
   max-width: 100%;
-  /* font-family: "inter", "Arial", sans-serif; */
   margin: 0 auto;
   padding: 0;
   -moz-osx-font-smoothing: grayscale;

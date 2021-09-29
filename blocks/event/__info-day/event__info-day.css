@@ -1,6 +1,8 @@
 .event__info-day {
   margin: 0 42px 0 0;
   font-family: "Formular";
+  font-style: normal;
+  font-weight: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 28px;

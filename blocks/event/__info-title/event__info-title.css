@@ -5,6 +5,7 @@
   letter-spacing: -0.01em;
   font-family: "Neue Machina";
   font-weight: normal;
+  font-style: normal;
 }
 
 @media (max-width: 500px) {
