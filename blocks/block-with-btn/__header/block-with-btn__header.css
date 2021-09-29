@@ -1,6 +1,6 @@
 .block-with-btn__header {
   margin: 0;
-  width: 468px;
+  max-width: 468px;
   font-family: Neue Machina, sans-serif;
   font-style: normal;
   font-weight: normal;
