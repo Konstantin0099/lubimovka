@@ -4,7 +4,6 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
         align-items: flex-start;
-        /* height: 1045px; */
         margin-top: -15px;
     }
   }
