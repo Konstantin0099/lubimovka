@@ -6,3 +6,9 @@
 .developers__link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 670px) {
+  .developers__link {
+    text-decoration: underline;
+  }
+}
