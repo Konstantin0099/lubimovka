@@ -13,3 +13,9 @@
     margin-right: 0;
   }
 }
+
+@media screen and (max-width: 670px) {
+  .developers {
+    margin-left: 50px;
+  }
+}
