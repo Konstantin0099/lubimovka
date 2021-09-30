@@ -3,6 +3,8 @@
   width: 100%;
   min-height: 450px;
   object-fit: cover;
+  transform: scale(1);
+  transition: transform 400ms cubic-bezier(0.6, 0, 0.6, 1);
 }
 
 .intro__image:hover{

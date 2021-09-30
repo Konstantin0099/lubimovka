@@ -1,31 +1,29 @@
-<<<<<<< HEAD
-.video__frame{
-    width: 100%;
-    margin: 45px 0 0;
-    display: flex;
-    justify-content: start;
-    overflow: hidden;
-    padding: 0;
-=======
+
 .video__frame {
   width: 100%;
-  margin: 35px 0 0;
+  /* height: 106px; */
+  margin: 31px auto  0;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   overflow: hidden;
   padding: 0;
->>>>>>> b195fe7c2c98015bd89d3958ff7ae259517170c2
 }
 
 .video__flex {
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 600px) {
   .video__frame {
     justify-content: center;
   }
   .video__frame:last-of-type {
     justify-content: start;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .video__frame {
+    margin-top: 38px;
   }
 }

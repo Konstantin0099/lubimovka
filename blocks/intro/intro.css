@@ -4,12 +4,8 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
         align-items: flex-start;
-<<<<<<< HEAD
         /* height: 1045px; */
-        margin-top: -17px;
+        margin-top: -25px;
         width: 100%;
-=======
-        margin-top: -15px;
->>>>>>> b195fe7c2c98015bd89d3958ff7ae259517170c2
     }
   }
