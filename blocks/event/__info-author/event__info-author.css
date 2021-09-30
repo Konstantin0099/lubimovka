@@ -1,0 +1,16 @@
+.event__info-author {
+  margin: 0 0 0 30px;
+  font-family: "Formular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.8;
+}
+
+@media (max-width: 500px) {
+  .event__info-author {
+    margin-left: 0;
+  }
+}

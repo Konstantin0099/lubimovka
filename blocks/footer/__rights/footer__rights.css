@@ -1,0 +1,29 @@
+.footer__rights {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  order: 5;
+  padding-top: 32px;
+}
+
+@media screen and (max-width: 1030px) {
+  .footer__rights {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .footer__rights {
+    margin-left: 50px;
+  }
+  .footer__rights::before {
+    content: "";
+    position: relative;
+    top: -32px;
+    left: -25px;
+    display: block;
+    border-top: 1px solid #242424;
+    width: 100%;
+  }
+}

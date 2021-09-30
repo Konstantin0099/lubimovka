@@ -1,0 +1,28 @@
+.developers__design {
+  position: relative;
+  margin-right: 32px;
+  padding-left: 30px;
+  width: 150px;
+}
+
+.developers__design::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 27px;
+  height: 25px;
+  background-image: url("../../../images/icons/degisners.svg");
+  top: -3px;
+  left: 0;
+}
+
+@media screen and (max-width: 1030px) {
+  .developers__design {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .developers__design::after {
+    top: 5px;
+    left: 0;
+  }
+}

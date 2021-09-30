@@ -1,0 +1,17 @@
+.event__info-text {
+  margin: 20px 0 24px;
+  font-family: "Formular", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 300;
+  max-width: 150px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media (max-width: 500px) {
+  .event__info-text {
+    margin-top: 8px;
+    margin-bottom: 40px;
+  }
+}

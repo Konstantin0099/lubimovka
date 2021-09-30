@@ -1,0 +1,23 @@
+.line {
+  width: 1px;
+  height: 268px;
+  background-color: #242424;
+  margin: 75px 29px 0;
+}
+
+@media (max-width: 1024px) {
+  .line {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .line {
+    display: block;
+    width: 414px;
+    height: 1px;
+    margin-top: 32px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

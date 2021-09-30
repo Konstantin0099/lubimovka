@@ -1,0 +1,21 @@
+.block-with-btn {
+  color: #242424;
+  background: #b7c09d;
+  padding-top: 71px;
+  padding-bottom: 141px;
+  margin-top: 112px;
+}
+
+@media screen and (max-width: 860px) {
+  .block-with-btn {
+    padding-left: 20%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .block-with-btn {
+    padding-top: 56px;
+    padding-left: 25px;
+    padding-bottom: 72px;
+  }
+}

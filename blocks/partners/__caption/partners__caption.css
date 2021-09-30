@@ -1,0 +1,14 @@
+.partners__caption {
+  display: none;
+  font-family: Formular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 1030px) {
+  .partners__caption {
+    display: block;
+  }
+}

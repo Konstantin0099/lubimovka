@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Neue Machina";
+  src: url(./PPNeueMachina-Regular.eot) format("eot"),
+    url(./PPNeueMachina-Regular.woff2) format("woff2"),
+    url(./PPNeueMachina-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url(./formular-light.eot) format("eot"),
+    url(./formular-light.woff2) format("woff2"),
+    url(./formular-light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}

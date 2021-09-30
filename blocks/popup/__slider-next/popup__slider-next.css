@@ -1,0 +1,31 @@
+.popup__slider-next {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-image: url(../../../images/button/slider-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: -98px;
+  background-color: #ecebe8;
+  cursor: pointer;
+}
+
+.popup__slider-next:hover {
+  background-image: url(../../../images/button/arrow-right-w.svg);
+  background-color: #242424;
+  transition: transform .3s ease-in-out;
+  transform : scale(1.15);
+}
+
+@media (max-width:725px) {
+  .popup__slider-next {
+    width: 41px;
+    height: 41px;
+    top: unset;
+    bottom: 65px;
+    right: 16px;
+  }
+}

@@ -1,0 +1,10 @@
+.card__button_look-chitka-span {
+  background-image: url(../../../../images/button/lookChitkaW.svg);
+  display: block;
+  height: 56px;
+  width: 0;
+  transition: all 400ms ease 100ms;
+  background-size: 200px 50px;
+  background-color: black;
+  background-position: 18px;
+}

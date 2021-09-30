@@ -1,0 +1,36 @@
+.event__info-tickets {
+  display: inline-block;
+  background: url(../../../images/buttonTickets.svg);
+  width: 154px;
+  height: 32px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.event__info-tickets::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 32px;
+  width: 0;
+  background-image: url(../../../images/buttonTicketsWhite.svg);
+  background-color: #000;
+  transition: 0.5s;
+}
+.event__info-tickets:hover::after {
+  width: 154px;
+}
+
+.event__info-tickets:active::after {
+  transform: scale(1.1, 1.1);
+  left: 0;
+}
+
+@media (max-width: 500px) {
+  .event__info-tickets::after {
+    left: 205px;
+  }
+  .event__info-tickets:active::after {
+    left: 210px;
+  }
+}

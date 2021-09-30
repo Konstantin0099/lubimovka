@@ -1,0 +1,11 @@
+.spectacles__title_quantity_one {
+  margin: 0 4.1% 0 14.58%;
+  padding: 0;
+  max-width: 450px;
+}
+
+@media (max-width: 1140px) {
+  .spectacles__title_quantity_one {
+    margin-bottom: 75px;
+  }
+}

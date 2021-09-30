@@ -1,0 +1,32 @@
+.card__author {
+  font-family: Neue Machina;
+  font-style: normal;
+  font-weight: normal;
+  grid-area: author;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #242424;
+  background: #ecece5;
+  max-width: 190px;
+  max-height: 64px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 auto 0 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.card__author:hover .card__author-name {
+  padding: 1px 5px;
+  box-sizing: content-box;
+  background: black;
+  color: white;
+  transition: background 300ms ease 0ms;
+}
+.card__author:hover {
+  position: relative;
+  right: 5px;
+}
+
+

@@ -1,0 +1,42 @@
+.event__info-about {
+  padding: 0;
+  background: url(../../../images/buttonAbout.svg);
+  margin-bottom: 16px;
+  display: inline-block;
+  width: 154px;
+  height: 32px;
+}
+.event__info-about::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 32px;
+  width: 0;
+  background-image: url(../../../images/buttonAboutWhite.svg);
+  background-color: #000;
+  transition: 0.5s;
+}
+.event__info-about:hover::after {
+  width: 154px;
+}
+
+.event__info-about:active::after {
+  transform: scale(1.1, 1.1);
+  left: 0;
+}
+
+@media (max-width: 500px) {
+  .event__info-about {
+    margin-bottom: 0;
+    margin-right: 27px;
+    margin-left: 24px;
+  }
+
+  .event__info-about::after {
+    left: 24px;
+  }
+
+  .event__info-about:active::after {
+    left: 20px;
+  }
+}
