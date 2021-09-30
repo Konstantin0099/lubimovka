@@ -1,8 +1,10 @@
+
 .video__frame {
   width: 100%;
-  margin: 35px 0 0;
+  /* height: 106px; */
+  margin: 31px auto  0;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   overflow: hidden;
   padding: 0;
 }
@@ -11,11 +13,17 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 600px) {
   .video__frame {
     justify-content: center;
   }
   .video__frame:last-of-type {
     justify-content: start;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .video__frame {
+    margin-top: 38px;
   }
 }

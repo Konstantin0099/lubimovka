@@ -11,7 +11,7 @@
   <body class="page">
     <header class="header">
       <nav class="header__navigation">
-        <img src="./images/Group.svg" alt="" class="header__image" />
+        <img src="./images/Group.svg" alt="логотип" class="header__image" />
         <ul class="header__links">
           <li><a href="#" class="header__link">Афиша</a></li>
           <li><a href="#" class="header__link">Библиотека</a></li>
@@ -31,15 +31,9 @@
           <li><a href="#" class="header__link">vk</a></li>
         </ul>
         <div class="header__border"></div>
-        <a href="#" class="header__button header__button-support">
-          ПОДДЕРЖАТЬ
-          <div class="header__button-img header__button-img-support"></div>
-        </a>
+        <a href="#" class="header__button-support"> ПОДДЕРЖАТЬ </a>
       </nav>
-      <a href="#" class="header__button header__button-img-progect">
-        ПРОЕКТЫ
-        <div class="header__button-img"></div>
-      </a>
+      <a href="#" class="header__button"> ПРОЕКТЫ </a>
     </header>
     <main class="content">
       <section class="intro">
@@ -50,11 +44,13 @@
             Можно слушать, обсуждать и даже участвовать.</span
           >
         </p>
-        <img
-          src="./images/Rectangle72.svg"
-          alt="картинка"
-          class="intro__image"
-        />
+        <div class="intro__img-cover">
+          <img
+            src="./images/Rectangle72.svg"
+            alt="картинка"
+            class="intro__image"
+          />
+        </div>
         <div class="intro__about">
           <h3 class="intro__about-title">О проекте</h3>
           <p class="intro__about-text">
@@ -71,14 +67,13 @@
           <h2 class="video__title">Заголовок блока с видео</h2>
           <div class="video__frame video__flex">
             <iframe
-              width="366"
-              height="206"
-              src="https://www.youtube.com/embed/ECf2dnwmRuQ"
+              src="https://www.youtube.com/embed/juq_3oRQ6yc"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
-              class="video__iframe video__iframe-first"
-            ></iframe>
+              class="video__iframe video__iframe_first"
+            >
+            </iframe>
           </div>
           <p class="video__text">
             Из этого следует два вывода: с одной стороны, искусство не должно
@@ -99,8 +94,6 @@
           <h2 class="video__title">Заголовок блока с двумя видео</h2>
           <div class="video__frame">
             <iframe
-              width="299"
-              height="168"
               src="https://www.youtube.com/embed/ECf2dnwmRuQ"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -108,8 +101,6 @@
               class="video__iframe video__iframes"
             ></iframe>
             <iframe
-              width="299"
-              height="168"
               src="https://www.youtube.com/embed/ECf2dnwmRuQ"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -117,13 +108,11 @@
               class="video__iframe video__iframes"
             ></iframe>
           </div>
-        </div>
-
-        <h2 class="video__title">Заголовок блока с трeмя видео</h2>
+        <h2 class="video__title video__title_third">
+          Заголовок блока с трeмя видео
+        </h2>
         <div class="video__frame">
           <iframe
-            width="299"
-            height="168"
             src="https://www.youtube.com/embed/ECf2dnwmRuQ"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -131,8 +120,6 @@
             class="video__iframe video__iframes"
           ></iframe>
           <iframe
-            width="299"
-            height="168"
             src="https://www.youtube.com/embed/ECf2dnwmRuQ"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -140,8 +127,6 @@
             class="video__iframe video__iframes"
           ></iframe>
           <iframe
-            width="299"
-            height="168"
             src="https://www.youtube.com/embed/ECf2dnwmRuQ"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
