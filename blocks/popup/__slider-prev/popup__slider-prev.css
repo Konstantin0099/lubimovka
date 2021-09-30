@@ -19,3 +19,14 @@
   transition: transform .3s ease-in-out;
   transform : scale(1.15);
 }
+
+@media (max-width:725px) {
+  .popup__slider-prev {
+    width: 41px;
+    height: 41px;
+    top: unset;
+    left: unset;
+    bottom: 16px;
+    right: 16px;
+  }
+}

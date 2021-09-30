@@ -19,3 +19,13 @@
   transition: transform .3s ease-in-out;
   transform : scale(1.15);
 }
+
+@media (max-width:725px) {
+  .popup__slider-next {
+    width: 41px;
+    height: 41px;
+    top: unset;
+    bottom: 65px;
+    right: 16px;
+  }
+}
