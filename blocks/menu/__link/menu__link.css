@@ -11,3 +11,12 @@
 .menu__link:hover {
   text-decoration: underline;
 }
+@media screen and (max-width: 670px) {
+  .menu__link {
+    font-family: Formular, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
