@@ -7,5 +7,6 @@
 @media (max-width: 1140px) {
   .spectacles_quantity_one {
     display: block;
+    padding-top: 0;
   }
 }
