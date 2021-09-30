@@ -1,9 +1,11 @@
 .intro__about{
+  margin-top: -5px;
     background-color: #B7C09D;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 @media screen and (min-width: 1024px) {

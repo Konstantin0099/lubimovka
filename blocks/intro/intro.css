@@ -4,6 +4,8 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
         align-items: flex-start;
-        margin-top: -15px;
+        /* height: 1045px; */
+        margin-top: -25px;
+        width: 100%;
     }
   }

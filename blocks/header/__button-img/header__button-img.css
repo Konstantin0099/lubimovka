@@ -1,7 +1,10 @@
 .header__button-img{
+<<<<<<< HEAD
+=======
     background-image: url(../../../images/Union.svg);
     background-position: center;
     background-size: cover;
+>>>>>>> b195fe7c2c98015bd89d3958ff7ae259517170c2
     width: 20px;
     height: 12px;
     margin-left: 5px;
