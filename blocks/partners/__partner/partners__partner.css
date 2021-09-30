@@ -1,5 +1,6 @@
 .partners__partner {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-right: 31px;

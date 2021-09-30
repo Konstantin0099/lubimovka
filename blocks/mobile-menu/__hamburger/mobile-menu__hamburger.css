@@ -1,0 +1,28 @@
+.mobile-menu__hamburger {
+  position: relative;
+  width: 20px;
+  border: 1px solid #ECEBE8;
+  background-color: #ECEBE8;
+}
+
+.mobile-menu__hamburger::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 20px;
+  border: 1px solid #ECEBE8;
+  background-color: #ECEBE8;
+  top: -8px;
+  left: -1px;
+}
+
+.mobile-menu__hamburger::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 20px;
+  border: 1px solid #ECEBE8;
+  background-color: #ECEBE8;
+  top: 6px;
+  left: -1px;
+}

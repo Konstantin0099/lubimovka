@@ -1,0 +1,16 @@
+.mobile-menu {
+  display: none;
+  position:absolute;
+  right: 0;
+  width: 72px;
+  height: 72px;
+  background: #242424;
+}
+
+@media screen and (max-width: 670px) {
+  .mobile-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

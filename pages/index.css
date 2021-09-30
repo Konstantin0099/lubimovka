@@ -81,6 +81,7 @@
 @import url(../blocks/partners/__header/partners__header.css);
 @import url(../blocks/partners/__partner/partners__partner.css);
 @import url(../blocks/partners/__logo/partners__logo.css);
+@import url(../blocks/partners/__caption/partners__caption.css);
 @import url(../blocks/address/address.css);
 @import url(../blocks/address/__header/address__header.css);
 @import url(../blocks/address/__text/address__text.css);
@@ -95,6 +96,8 @@
 @import url(../blocks/developers/__design/developers__design.css);
 @import url(../blocks/developers/__code/developers__code.css);
 @import url(../blocks/developers/__link/developers__link.css);
+@import url(../blocks/mobile-menu/mobile-menu.css);
+@import url(../blocks/mobile-menu/__hamburger/mobile-menu__hamburger.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);

@@ -1,5 +1,6 @@
 .footer__rights {
   display: flex;
+  position: relative;
   justify-content: space-between;
   order: 5;
   padding-top: 32px;
