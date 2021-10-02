@@ -12,7 +12,7 @@
 @import url(../blocks/header/__button-support/header__button-support.css);
 @import url(../blocks/header/__button-img-support/header__button-img-support.css);
 @import url(../blocks/header/__border/header__border.css);
-@import url(../blocks/header/__button-img-progect/header__button-img-progect.css);
+/* @import url(../blocks/header/__button-img-progect/header__button-img-progect.css); */
 @import url(../blocks/header/__network/header__network.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/section-cards/section-cards.css);
@@ -63,7 +63,7 @@
 @import url(../blocks/event/__info-text/event__info-text.css);
 @import url(../blocks/event/__info-about/event__info-about.css);
 @import url(../blocks/event/__info-tickets/event__info-tickets.css);
-@import url(../blocks/event/__info-button/event-info-button.css);
+/* @import url(../blocks/event/__info-button/event-info-button.css); */
 @import url(../blocks/line/line.css);
 @import url(../blocks/line/_quantity/line_quantity_two.css);
 @import url(../blocks/block-with-btn/block-with-btn.css);
@@ -121,7 +121,7 @@
 @import url(../blocks/card/__button/_download-piece-span/card__button_download-piece-span.css);
 @import url(../blocks/card/__button/_look-chitka-span/card__button_look-chitka-span.css);
 @import url(../blocks/card/__button/_hover/card__button_hover.css);
-@import url(../blocks/card/__persone/card__persone.css);
+@import url(../blocks/card/__persone/card_persone.css);
 @import url(../blocks/cards/_play-cover/cards_play-cover.css);
 @import url(../blocks/cards/_persones/cards_persones.css);
 @import url(../blocks//card/__author-persone/card__author-persone.css);
