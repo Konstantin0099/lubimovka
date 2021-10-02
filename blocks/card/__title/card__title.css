@@ -1,0 +1,20 @@
+.card__title {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: #b7c09d;
+  grid-area: title;
+  overflow: hidden;
+  cursor: pointer;
+}
+.card__title:hover .card__button_hover {
+  width: 240px;
+  height: 56px;
+  transition-delay: 200ms;
+  transition-duration: 400ms;
+  border-top: 1px solid #242424;
+}
+
+

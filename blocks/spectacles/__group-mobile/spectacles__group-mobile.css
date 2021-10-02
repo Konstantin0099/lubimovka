@@ -1,0 +1,11 @@
+.spectacles__group-mobile {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .spectacles__group-mobile {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

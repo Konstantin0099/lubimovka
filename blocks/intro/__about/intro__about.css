@@ -1,6 +1,6 @@
 .intro__about{
+  margin-top: -5px;
     background-color: #B7C09D;
-    margin: -5px;
     display:flex;
     flex-direction: column;
     justify-content: center;

@@ -1,0 +1,22 @@
+.menu__link {
+  color: #242424;
+  text-decoration: none;
+  font-family: Formular, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 670px) {
+  .menu__link {
+    font-family: Formular, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

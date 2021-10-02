@@ -1,0 +1,21 @@
+.developers {
+  display: flex;
+  font-family: Formular, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 1030px) {
+  .developers {
+    flex-direction: column;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .developers {
+    margin-left: 50px;
+  }
+}

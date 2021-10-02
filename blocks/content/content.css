@@ -1,0 +1,9 @@
+.content {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  color: #242424;
+  background-color: #ecebe8;
+}

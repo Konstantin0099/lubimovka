@@ -1,0 +1,32 @@
+.popup__slider-prev {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-image: url(../../../images/button/slider-arrow-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: -98px;
+  background-color: #ecebe8;
+  cursor: pointer;
+}
+
+.popup__slider-prev:hover {
+  background-image: url(../../../images/button/arrow-left-w.svg);
+  background-color: #242424;
+  transition: transform .3s ease-in-out;
+  transform : scale(1.15);
+}
+
+@media (max-width:725px) {
+  .popup__slider-prev {
+    width: 41px;
+    height: 41px;
+    top: unset;
+    left: unset;
+    bottom: 16px;
+    right: 16px;
+  }
+}

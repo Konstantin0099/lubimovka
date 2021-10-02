@@ -1,0 +1,15 @@
+.section-cards {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 60px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .section-cards {
+    padding: 0 24px;
+  }
+}

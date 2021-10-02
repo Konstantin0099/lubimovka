@@ -1,0 +1,9 @@
+.card_persone {
+  grid-template-rows: 265px 80px 52px;
+  gap: 0;
+  grid-template-areas:
+    "title"
+    "author"
+    "location";
+  align-items: center;
+}

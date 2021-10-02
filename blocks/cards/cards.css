@@ -1,0 +1,10 @@
+.cards {
+  display: grid;
+  justify-content: center;
+  margin: 0;
+  padding: 0 5px 20px 5px;
+  box-sizing: content-box;
+  grid-auto-flow: column;
+  gap: 30px;
+  width: 100%;
+}

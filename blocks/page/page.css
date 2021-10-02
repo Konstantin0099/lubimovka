@@ -1,7 +1,11 @@
 .page {
-    background-color:  #ECEBE8;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    min-width: 414px;
-    max-width: 1440px;
+  padding: 0;
+  background-color: #ecebe8;
+  color: #242424;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 414px;
+  font-family: "Formular", "Neue Machina", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }

@@ -1,5 +1,5 @@
 .header__button {
-  width: 102px;
+  width: 110px;
   height: 28px;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
@@ -10,7 +10,7 @@
   text-decoration: none;
   color: black;
   cursor: pointer;
-  background-image: url(../../../image/Union.svg);
+  background-image: url(../../../images/Union.svg);
   background-position: right;
   background-size: initial;
   background-repeat: no-repeat;
@@ -30,12 +30,12 @@
 .header__button::after {
   content: "ПРОЕКТЫ";
   background-color: black;
-  width: 100%;
+  width: 110px;
   height: 100%;
   position: absolute;
   top: 0;
   left: 100%;
-  background-image: url(../../../image/Untitled.svg);
+  background-image: url(../../../images/Untitled.svg);
   background-position: right;
   background-size: initial;
   background-repeat: no-repeat;
@@ -48,28 +48,30 @@
   font-weight: 300;
   line-height: 14px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: start;
+  padding-left: 10px;
+  transition: 0.5s;
 }
 
 .header__button:hover::after {
   left: 0;
   opacity: 1;
-  background-image: url(../../../image/Untitled.svg);
-  transition: 0.15s linear 0s;
+  background-image: url(../../../images/Untitled.svg);
+  
 }
 
-.header__button:active {
-  transform: scale(1.2);
+.header__button:active{
+  transform: scale(1.1, 1.1);
 }
 
 @media screen and (min-width: 1024px) {
   .header__button {
+    margin-top: 33px;
     margin-left: 29px;
-    width: 120px;
     height: 31px;
   }
 }

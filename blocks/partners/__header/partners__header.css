@@ -1,0 +1,12 @@
+.partners__header {
+  width: 145px;
+  height: 34px;
+}
+
+@media screen and (max-width: 1030px) {
+  .partners__header {
+    flex-direction: column;
+    order: 1;
+    display: none;
+  }
+}

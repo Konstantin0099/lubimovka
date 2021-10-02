@@ -1,0 +1,19 @@
+.copyrights__link {
+  color: #242424;
+  text-decoration: none;
+  font-family: Formular, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.copyrights__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 670px) {
+  .copyrights__link {
+    text-decoration: underline;
+  }
+}

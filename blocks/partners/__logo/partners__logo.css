@@ -1,0 +1,13 @@
+.partners__logo {
+  width: 91px;
+  height: 34px;
+  mix-blend-mode: multiply;
+}
+
+@media screen and (max-width: 1030px) {
+  .partners__logo {
+    width: 111px;
+    height: 41px;
+    margin-bottom: 15px;
+  }
+}

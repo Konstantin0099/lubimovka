@@ -1,0 +1,16 @@
+.footer__logo {
+  margin-left: 32px;
+  margin-right: 82px;
+  min-width: 93px;
+  height: 81px;
+  background-image: url("../../../images/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 670px) {
+  .footer__logo {
+    margin: 0 0 33px 58px;
+    background-position: left;
+  }
+}

@@ -1,0 +1,15 @@
+.card_play-cover {
+  grid-template-rows: 300px 64px 48px;
+  gap: 0;
+  grid-template-areas:
+    "title"
+    "author"
+    "location";
+  align-items: center;
+}
+
+@media screen and (max-width: 525px) {
+  .card_play-cover {
+    grid-template-rows: 342px 47px 52px;
+  }
+}

@@ -1,0 +1,12 @@
+.popup__photo {
+  max-width: 75vw;
+  max-height: 75vh;
+  display: block;
+}
+
+@media (max-width:625px) {
+  .popup__photo {
+    max-width: 90vw;
+    max-height: 90vh;
+  }
+}

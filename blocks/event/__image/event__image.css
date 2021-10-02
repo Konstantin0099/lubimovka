@@ -1,0 +1,14 @@
+.event__image {
+  width: 120px;
+  height: 161px;
+  margin-right: 31px;
+}
+
+@media (max-width: 500px) {
+  .event__image {
+    width: 92px;
+    height: 123px;
+    margin-right: 29px;
+    margin-left: 24px;
+  }
+}

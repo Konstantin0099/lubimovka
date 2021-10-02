@@ -1,0 +1,11 @@
+.copyrights__company {
+  margin-right: 32px;
+  width: 134px;
+}
+
+@media screen and (max-width: 1030px) {
+  .copyrights__company {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

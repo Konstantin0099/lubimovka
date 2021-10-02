@@ -1,0 +1,43 @@
+.block-with-btn__btn {
+  display: inline-block;
+  align-self: center;
+  position: relative;
+  width: 298px;
+  height: 56px;
+  outline: 0;
+  border: 1px solid #000000;
+  cursor: pointer;
+  background: transparent url(../../../images/button/youtube-black.svg) no-repeat 20px center;
+}
+
+.block-with-btn__btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 56px;
+  width: 0;
+  background: #000000 url(../../../images/button/youtube-white.svg) no-repeat 20px center;
+  transition: .5s;
+}
+
+.block-with-btn__btn:hover::after {
+  width: 298px;
+}
+
+.block-with-btn__btn:active::after {
+  transform: scale(1.1, 1.1);
+  left: 0;
+}
+
+@media screen and (max-width: 860px) {
+  .block-with-btn__btn {
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .block-with-btn__btn {
+    max-width: 298px;
+  }
+}

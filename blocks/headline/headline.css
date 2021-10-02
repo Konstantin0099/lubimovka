@@ -1,0 +1,26 @@
+.headline {
+  position: relative;
+  left: 22%;
+  max-height: 80px;
+  max-width: 358px;
+  margin: 93px 0 48px 0;
+  padding: 0;
+  border: 0;
+font-family: Neue Machina, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 100%;
+
+  letter-spacing: -0.01em;
+
+  color: #242424;
+}
+
+@media screen and (max-width: 525px) {
+  .headline {
+    left: 0%;
+    font-size: 28px;
+    margin: 100px 0 32px 0;
+  }
+}

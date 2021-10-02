@@ -6,7 +6,7 @@
   border: none;
   display: none;
   margin: 0;
-  background-image: url(../../../image/plusBlack.svg);
+  background-image: url(../../../images/plusBlack.svg);
   background-position: left;
   background-size: initial;
   background-repeat: no-repeat;
@@ -22,6 +22,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .header__button-support::after {
   display: flex;
   content: "ПОДДЕРЖАТЬ";
@@ -32,7 +33,7 @@
   top: 0;
   right: 100%;
   opacity: 0;
-  background-image: url(../../../image/plusBlack.svg);
+  background-image: url(../../../images/plusBlack.svg);
   background-position: left;
   background-size: initial;
   background-repeat: no-repeat;
@@ -40,17 +41,17 @@
   flex-direction: row-reverse;
   justify-content: end;
   align-items: center;
+  transition: 0.5s;
 }
 
 .header__button-support:hover::after {
-  background-image: url(../../../image/plusWhite.svg);
+  background-image: url(../../../images/plusWhite.svg);
   opacity: 1;
   right: 0;
-  transition: 0.15s linear 0s;
 }
 
 .header__button-support:active {
-  transform: scale(1.2);
+  transform: scale(1.1, 1.1);
 }
 
 @media screen and (min-width: 1024px) {
